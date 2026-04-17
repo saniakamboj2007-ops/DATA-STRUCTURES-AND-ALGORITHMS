@@ -1,0 +1,22 @@
+Correctness Check:
+Original: [5, 2, 9, 1, 5, 6]
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge: [1, 2, 5, 5, 6, 9]
+Quick: [1, 2, 5, 5, 6, 9]
+
+--- PERFORMANCE TABLE ---
+
+Size: 1000, Type: random
+Insertion Sort: 45 ms
+Merge Sort: 3 ms
+Quick Sort: 2 ms
+
+Size: 5000, Type: random
+Insertion Sort: 1200 ms
+Merge Sort: 15 ms
+Quick Sort: 10 ms
+
+Size: 10000, Type: random
+Insertion Sort: 4800 ms
+Merge Sort: 30 ms
+Quick Sort: 25 ms
